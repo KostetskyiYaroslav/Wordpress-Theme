@@ -1,0 +1,137 @@
+/*
+Theme Name: Minimalism
+Theme URI: https://github.com/Shooter75/
+Author: Yaroslav Kostecki
+Author URI: http://github.com/Shooter75
+Description: The theme based on materialize HTML template which one I implement into Wordpress Theme.
+Version: 1.0
+License: none
+License URI: none
+Text Domain: minimalism
+*/
+
+@import url('css/materialize.min.css');
+
+/*LEFT-TOP LOGO(SOFT GROUP ACADEMY)*/
+.brand-logo {
+    margin-left:5px;
+}
+
+/*Navigation menu*/
+nav {
+    background: #2196F3;
+}
+
+/*Main section */
+main {
+    flex: 1 0 auto; /*for stick footer*/
+}
+
+img
+{
+    max-width: 100%;
+}
+
+/*All content in MAIN*/
+.container {
+    width: 100%;
+}
+
+/*All content in MAIN*/
+body {
+    display: flex;          /*                */
+    min-height: 100vh;      /*FOR STICK FOOTER*/
+    flex-direction: column; /*                */
+}
+
+.btn {
+    margin: 3px;
+}
+
+li a
+{
+    color: white;
+    float: right;
+}
+
+html
+{
+    margin-top: 0 !important;
+}
+
+.menu-menu-1-container
+{
+    float: right;
+    background: #2196F3;
+}
+
+/*SINGLE POST START*/
+div.title-single-post
+{
+    width: 30%;
+    float: left;
+}
+div.content-single-post
+{
+    width: 70%;
+    float: right;
+    min-height: 106px;
+}
+div.image-single-post
+{
+    max-width: 373px;
+}
+/*SINGLE POST END*/
+
+/*NEW LIST(INDEX.PHP) START*/
+article.post
+{
+    border-bottom: 2px dotted lightblue;
+    padding: 20px;
+}
+article.post:last-of-type
+{
+    border-bottom: none;
+}
+/*NEW LIST(INDEX.PHP) END*/
+
+/*SELECT DENIED START*/
+.denied-select {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none;   /* Chrome/Safari/Opera */
+    -moz-user-select: none;      /* Firefox */
+    -ms-user-select: none;       /* IE/Edge */
+    user-select: none;           /* non-prefixed version, currently
+                                  not supported by any browser */
+}
+/*SELECT DENIED END */
+
+/*SIDEBAR START*/
+
+/*LEFT SIDEBAR START*/
+.left-widget-area
+{
+    float: left;
+    margin: 5px;
+    max-width: 120px;
+}
+/*LEFT SIDEBAR END*/
+
+/*RIGHT SIDEBAR START*/
+.right-widget-area
+{
+    float: right;
+    margin: 5px;
+    max-width: 120px;
+}
+/*RIGHT SIDEBAR END*/
+
+/*FOOTER SIDEBAR START*/
+.footer-widget-area
+{
+    max-width: 120px;
+}
+/*FOOTER SIDEBAR END*/
+
+/*SIDEBAR END*/
+
