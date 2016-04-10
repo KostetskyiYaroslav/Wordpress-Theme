@@ -11,6 +11,7 @@ Text Domain: minimalism
 */
 
 @import url('css/materialize.min.css');
+@import url('css/tooltipster.css');
 
 /*LEFT-TOP LOGO(SOFT GROUP ACADEMY)*/
 .brand-logo {
@@ -59,7 +60,7 @@ html
     margin-top: 0 !important;
 }
 
-.menu-menu-1-container
+.menu-top
 {
     float: right;
     background: #2196F3;
@@ -134,4 +135,3 @@ article.post:last-of-type
 /*FOOTER SIDEBAR END*/
 
 /*SIDEBAR END*/
-

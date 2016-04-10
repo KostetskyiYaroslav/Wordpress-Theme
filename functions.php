@@ -1,28 +1,12 @@
-<div class="cyan-text">
-    </div>
 <?php
 
-function register_my_menu() {
-    register_nav_menu('header-menu',__( 'Header Menu' ));
-}
-add_action( 'init', 'register_my_menu' );
-
-function register_my_menus() {
-    register_nav_menus(
-        array(
-            'header-menu' => __( 'Header Menu' ),
-            'extra-menu' => __( 'Extra Menu' )
-        )
-    );
-}
-add_action( 'init', 'register_my_menus' );
-
-function wp_kama_theme_setup(){
-    // Поддержка миниатюр
+//allow thumbnails on site
+function wp_thumbnails_theme_setup(){
     add_theme_support( 'post-thumbnails' );
 }
-add_action( 'after_setup_theme', 'wp_kama_theme_setup' );
+add_action( 'after_setup_theme', 'wp_thumbnails_theme_setup' );
 
+//footer, left and right widget area
 function add_widgets_areas() {
     register_sidebar( array(
         'name' => 'Left widget area',
@@ -49,7 +33,6 @@ function add_widgets_areas() {
         'after_title' => '</h2>',
     ) );
 }
-
 add_action( 'widgets_init', 'add_widgets_areas' );
 
 

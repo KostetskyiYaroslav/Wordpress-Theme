@@ -3,6 +3,11 @@ $(function ()
     //Update clock per 1 sec
     setInterval('updateClock()', 1000 );
 
+    $( ".menu-item" ).each( function( index, el ) {
+        $( el ).addClass( "tooltip" ).attr( 'title', $( el ).text());
+    });
+
+    $('.tooltip').tooltipster();
 });
 
 //Change clock time

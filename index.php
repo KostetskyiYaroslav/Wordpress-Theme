@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-<?php if ( have_posts() ) { ?>
+<?php if ( have_posts() && is_user_logged_in()) { ?>
  <?php while ( have_posts() ) {
   the_post(); ?>
   <article class="post">
@@ -11,4 +11,3 @@
  <?php }
 } ?>
 <?php get_footer(); ?>
-
