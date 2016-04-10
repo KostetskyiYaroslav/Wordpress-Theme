@@ -1,0 +1,12 @@
+.tooltipster-blue {
+	border-radius: 0;
+	border: 3px solid #2196F3;
+	background: #ffffff;
+	color: #2196F3;
+}
+.tooltipster-blue .tooltipster-content {
+	font-family: 'Georgia', serif;
+	font-size: 14px;
+	line-height: 16px;
+	padding: 8px 10px;
+}

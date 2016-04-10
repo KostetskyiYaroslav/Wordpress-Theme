@@ -1,17 +1,17 @@
 /*
 Theme Name: Minimalism
-Theme URI: https://github.com/Shooter75/
+Theme URI: https://github.com/Shooter75/Wordpress-Theme/
 Author: Yaroslav Kostecki
 Author URI: http://github.com/Shooter75
 Description: The theme based on materialize HTML template which one I implement into Wordpress Theme.
-Version: 1.0
-License: none
-License URI: none
+Version: 2.0
+License: Pirat
 Text Domain: minimalism
 */
 
 @import url('css/materialize.min.css');
 @import url('css/tooltipster.css');
+@import url('css/themes/tooltipster-blue.css');
 
 /*LEFT-TOP LOGO(SOFT GROUP ACADEMY)*/
 .brand-logo {

@@ -7,7 +7,7 @@ $(function ()
         $( el ).addClass( "tooltip" ).attr( 'title', $( el ).text());
     });
 
-    $('.tooltip').tooltipster();
+    $('.tooltip').tooltipster({theme:'tooltipster-blue'});
 });
 
 //Change clock time
